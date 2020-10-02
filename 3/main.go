@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"io/ioutil"
+)
 
 func main() {
-	fmt.Println("vim-go")
+	data, _ := ioutil.ReadFile("hello.aiff") // read in 31,440 numbers
+	fmt.Println(data)
 }
