@@ -1,0 +1,4 @@
+1. you might already know your mac can say Hello if you just type say Hello
+
+2. but did you know you can save that audio to an AIFF file?
+notice the 31440 byte file hello.aiff in this directory now.
