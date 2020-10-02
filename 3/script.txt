@@ -7,3 +7,9 @@ notice the 31440 byte file hello.aiff in this directory now.
 
 ok it's a bunch of numbers, pages and pages of them and sometimes blocks of zeros.
 
+3. if we open hello.aiff in an audio editing program we can see these 
+numbers plotted on a nice graph from -1.0 to 1.0
+
+and i can zoom into just a small section vs. viewing the entire thing.
+
+4. So our first question should be, those numbers we saw in the file are not from -1.0 to 1.0. They aren't floating point numbers at all. They were just random intergers like 87 255 243 etc. How do these numbers get converted into floats?
